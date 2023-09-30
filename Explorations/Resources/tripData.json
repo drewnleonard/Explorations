@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "destination": "Denver, CO",
+    "startDate": "2023-09-28",
+    "endDate": "2023-10-01",
+    "itinerary": [
+      {
+        "id": 1,
+        "date": "2023-09-28",
+        "plans": [
+          {
+            "id": 1,
+            "planType": "flight",
+            "flightMetadata": {
+              "number": "UA 1216",
+              "confirmationCode": "WA4QU7",
+              "seatNumber": "34A",
+              "seatSection": "Economy",
+              "boardingTime": "7:59 AM",
+              "distance": {
+                "miles": "966 mi",
+                "time": "2h 34m"
+              },
+              "departure": {
+                "date": "2023-09-28",
+                "time": "8:25 PM",
+                "timezone": "PST",
+                "airportName": "San Francisco Intl",
+                "airportCode": "SFO",
+                "gate": "D1",
+                "terminal": "2"
+              },
+              "arrival": {
+                "date": "2023-09-28",
+                "time": "11:59 PM",
+                "timezone": "MST",
+                "airportName": "Denver Intl",
+                "airportCode": "DEN",
+                "gate": "E4",
+                "terminal": "3"
+              }
+            },
+            "carRentalMetadata": null
+          },
+          {
+            "id": 2,
+            "planType": "carRental",
+            "flightMetadata": null,
+            "carRentalMetadata": {
+              "rentalCompany": "Hertz",
+              "confirmationCode": "JN8KU4",
+              "carClass": "Economy",
+              "pickUp": {
+                "date": "2023-09-28",
+                "time": "9:00 PM",
+                "timezone": "MST",
+                "location": "Denver Intl"
+              },
+              "dropOff": {
+                "date": "2023-10-01",
+                "time": "10:00 AM",
+                "timezone": "MST",
+                "location": "Denver Intl"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
