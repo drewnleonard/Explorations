@@ -110,7 +110,8 @@ struct Trip: Hashable, Codable, Identifiable {
   var startDate: String
   var endDate: String
   var itinerary: [Itinerary]
-  var numberOfDays: Int {
+  
+  var daysOfTrip: Int {
     return itinerary.count
   }
   
@@ -125,7 +126,7 @@ struct Trip: Hashable, Codable, Identifiable {
     return "N/A"
   }
   
-  var daysOfTrip: String {
+  var datesOfTrip: String {
     let inputFormatter = DateFormatter()
     inputFormatter.dateFormat = "yyyy-MM-dd"
     

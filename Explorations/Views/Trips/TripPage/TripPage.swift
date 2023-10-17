@@ -31,7 +31,7 @@ struct TripPage: View {
         
         // Subheader
         HStack {
-          Text(trip.daysOfTrip)
+          Text(trip.datesOfTrip)
             .frame(alignment: .leading)
             .font(.subheadline)
             .foregroundColor(.gray)
@@ -122,7 +122,7 @@ struct TripPage: View {
                   .foregroundColor(.white)
                   .bold()
                 Spacer()
-                Text("Day \(day.id) of \(trip.numberOfDays)")
+                Text("Day \(day.id) of \(trip.daysOfTrip)")
                   .font(.subheadline)
                   .foregroundColor(.gray)
               }

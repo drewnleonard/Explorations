@@ -101,6 +101,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4763E0632ADE33AF00D6DA36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		6426FF4B2A89A6D400C09E4C = {
 			isa = PBXGroup;
 			children = (
@@ -127,17 +134,10 @@
 				6426FF592A89A6D400C09E4C /* ContentView.swift */,
 				6426FF832A89A72000C09E4C /* Resources */,
 				6426FF822A89A71100C09E4C /* Views */,
+				4763E0632ADE33AF00D6DA36 /* Preview Content */,
 				6426FF812A89A70800C09E4C /* Model */,
-				6426FF5D2A89A6D500C09E4C /* Preview Content */,
 			);
 			path = Explorations;
-			sourceTree = "<group>";
-		};
-		6426FF5D2A89A6D500C09E4C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6426FF672A89A6D500C09E4C /* ExplorationsTests */ = {

@@ -34,7 +34,7 @@ struct TripDrawerCard: View {
         Text(trip.destination)
           .font(.title)
           .bold()
-        Text(trip.daysOfTrip)
+        Text(trip.datesOfTrip)
       }
     }
     .onTapGesture {
